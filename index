@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>MY WEBSITE!!!!!</title>
+</head>
+
+<body>
+  <div class="box">
+    <h1> HI!!!!!!!! </h1>
+  </div>
+  <br>
+
+  <div>
+    <div id="red"></div>
+    <div id="yellow"></div>
+    <div id="blue"> </div>
+    hello!! welcome to my website
+    <div id="red"></div>
+    <div id="yellow"></div>
+    <div id="blue"></div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  feel free to look around
+
+</body>
+
+</html>
