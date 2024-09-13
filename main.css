@@ -1,0 +1,47 @@
+h1 {
+    color: black;
+    size: 100px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+  }
+  
+  body {
+    font-family: "Comic Sans MS";
+    text-align: center;
+  }
+  
+  .box {
+    height: 400;
+    width: 1000;
+    border-style: solid;
+    border-color: #feff8a;
+    margin: 10px;
+  }
+  
+  #red {
+    height: 25px;
+    width: 25px;
+    background-color: #ff8585;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  #yellow {
+    height: 25px;
+    width: 25px;
+    background-color: #feed70;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+  #blue {
+    height: 25px;
+    width: 25px;
+    background-color: #70a7ff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+  }
+  
