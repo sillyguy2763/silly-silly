@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px;
   }
 
-#C1A { 
+span.C1A { 
     height: 300px;
     width: 450;
     border-style: solid;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-#C1B { 
+span.C1B { 
     height: 300px;
     width: 450;
     border-style: solid;
