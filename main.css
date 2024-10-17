@@ -46,7 +46,6 @@ h1 {
   }
 
 ul {
-    text-align: center;
     list-style-position: inside;
 }
 
@@ -56,7 +55,8 @@ ul {
     border-style: solid;
     border-color: #96a8ff;
     border-width: 5px;
-    margin: 10px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
     text-align: center;
-    margin-left: 0px;
 }
