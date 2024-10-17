@@ -56,6 +56,18 @@ ul {
     border-color: #96a8ff;
     border-width: 5px;
     margin: auto;
+    display:inline-block;
     float: left;
+    text-align: left;
+}
+
+#C1B { 
+    height: 400px;
+    width: 750px;
+    border-style: solid;
+    border-color: #3f2dd2;
+    border-width: 5px;
+    margin: auto;
+    display:inline-block;
     text-align: left;
 }
