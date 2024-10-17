@@ -56,7 +56,6 @@ ul {
     border-color: #96a8ff;
     border-width: 5px;
     margin: auto;
-    position: absolute;
-    left: 0px;
-    text-align: center;
+    float: left;
+    text-align: left;
 }
