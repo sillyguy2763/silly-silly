@@ -1,4 +1,4 @@
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: black;
     size: 100px;
     text-align: center;
@@ -45,31 +45,26 @@ h1 {
     margin: 15px;
   }
 
-ul {
-    list-style-position: inside;
-}
-
 #C1A { 
-    height: 400px;
-    width: 750px;
+    height: 300px;
+    width: 400px;
     border-style: solid;
     border-color: #96a8ff;
     border-width: 5px;
     margin: auto;
-    padding: 3px;
+    padding: 5px;
     display: inline-block;
-    float: left;
-    text-align: left;
+    text-align:center;
 }
 
 #C1B { 
-    height: 400px;
-    width: 750px;
+    height: 300px;
+    width: 400px;
     border-style: solid;
     border-color: #3f2dd2;
     border-width: 5px;
     margin: auto;
-    padding: 3px;
-    display:inline-block;
-    text-align: left;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
 }
