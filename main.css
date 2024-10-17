@@ -56,7 +56,8 @@ ul {
     border-color: #96a8ff;
     border-width: 5px;
     margin: auto;
-    display:inline-block;
+    padding: 3px;
+    display: inline-block;
     float: left;
     text-align: left;
 }
@@ -68,6 +69,7 @@ ul {
     border-color: #3f2dd2;
     border-width: 5px;
     margin: auto;
+    padding: 3px;
     display:inline-block;
     text-align: left;
 }
