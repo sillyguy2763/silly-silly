@@ -38,3 +38,51 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px;
     text-align: center;
 }
+
+#aubrey {
+    width: 160px;
+    height: 300px;
+    background-color: #ffcce0;
+    border-color: #ff96d5;
+    border-style: solid;
+    border-width: 8px;
+    margin: 15px 9px;
+    padding: 5px;
+    text-align: center;
+}
+
+#kel {
+    width: 160px;
+    height: 300px;
+    background-color: #fcd8b6;
+    border-color: ##fc8f28;
+    border-style: solid;
+    border-width: 8px;
+    margin: 15px 9px;
+    padding: 5px;
+    text-align: center;
+}
+
+#hero {
+    width: 160px;
+    height: 300px;
+    background-color: #a8b7ff;
+    border-color: #4f6fff;
+    border-style: solid;
+    border-width: 8px;
+    margin: 15px 9px;
+    padding: 5px;
+    text-align: center;
+}
+
+#mari {
+    width: 160px;
+    height: 300px;
+    background-color: #c0a2f5;
+    border-color: #a94dff;
+    border-style: solid;
+    border-width: 8px;
+    margin: 15px 9px;
+    padding: 5px;
+    text-align: center;
+}
