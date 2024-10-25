@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Omori1'; /* Name your font family */
-  src: url('./omori-fonts.zip/OMORI_GAME.ttf');
+  font-family: 'Omori2';
+  src: url('./omori-fonts.zip/OMORI_GAME2.ttf');
 }
 
 body {
-  font-family: 'Omori1'
+  font-family: 'Omori2'
 }
