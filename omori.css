@@ -1,12 +1,17 @@
+@font-face {
+  font-family: 'Omori1';
+  src: url('./omori-fonts.zip/OMORI_GAME1.ttf');
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
     size: 100%;
     text-align: center;
-    font-family: "Comic Sans MS";
+    font-family: "Omori1";
   }
 
   body {
-    font-family: "Comic Sans MS";
+    font-family: "Omori1";
     text-align: center;
   }
 
