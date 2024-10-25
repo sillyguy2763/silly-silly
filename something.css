@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Omori1'; /* Name your font family */
+  src: url('./omori-fonts.zip/OMORI_GAME.ttf');
+}
+
+body {
+  font-family: 'Omori1'
+}
