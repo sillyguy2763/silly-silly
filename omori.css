@@ -3,9 +3,16 @@
   src: url('OMORI_GAME.ttf');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     color: black;
-    size: 100%;
+    size: 100px;
+    text-align: center;
+    font-family: "Omori1";
+  }
+
+h3 {
+    color: black;
+    size: 40px;
     text-align: center;
     font-family: "Omori1";
   }
