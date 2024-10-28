@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Omori2';
-  src: url('OMORI_GAME1.ttf');
+  src: url('OMORI_GAME.ttf');
 }
 
 body {
@@ -13,5 +13,5 @@ h4 {
     color: black;
     size: 60px;
     text-align: center;
-    font-family: "Omori1";
+    font-family: "Omori2";
   }
