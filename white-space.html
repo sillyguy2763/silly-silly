@@ -10,7 +10,7 @@
   <br>
   <br>
   <script>
-function light(sw) {
+function wake(sw) {
   var pic;
   if (sw == 0) {
     pic = "mewo-sleep.webp"
@@ -20,7 +20,9 @@ function light(sw) {
   document.getElementById('mewo-sleep').src = pic;
 }
 </script>
-  <img src="./images/mewo-sleep.webp" height=50px>
+  <button type="button" onclick="wake(1)">
+  <img id ="mewo-sleep" src="./images/mewo-sleep.webp" height=50px>
+  </button>
   <audio>
    <source src="placeholder.mp3" type="audio/mpeg">
     (sorry, audio is not supported.)
