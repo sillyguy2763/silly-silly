@@ -99,3 +99,11 @@ h3 {
     padding: 5px 10px;
     text-align: center;
 }
+
+.button {
+  background-color: white
+  border: none;
+  color: white;
+  padding: 0px;
+  display: inline-block;
+}
