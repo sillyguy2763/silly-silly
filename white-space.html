@@ -18,12 +18,15 @@ function wake(sw) {
     pic = "MEWO.png"
   }
   document.getElementById('mewo-sleep').src = pic;
+  document.getElementById('MEWO').src = pic;
 }
 </script>
+  <p>
   <button type="button" onclick="wake(1)">
   <img id ="mewo-sleep" src="./images/mewo-sleep.webp" height=50px>
   </button>
-    <img id ="MEWO" src="./images/MEWO.png" height=48px>
+  </p>
+  
   <audio>
    <source src="placeholder.mp3" type="audio/mpeg">
     (sorry, audio is not supported.)
