@@ -18,7 +18,11 @@ function wake(sw) {
     pic = "MEWO.png"
   }
   document.getElementById('mewo-sleep').src = pic;
-  document.getElementById('MEWO').src = pic;
+  .getElementById('MEWO').src = pic;
+  .addEventListener("click", meow);
+
+function meow() {
+  alert ("Meow? (Waiting for something to happen?)");
 }
 </script>
   <p>
