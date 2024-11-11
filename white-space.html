@@ -9,6 +9,9 @@
   <br>
   <br>
   <br>
+  <br>
+  <br>
+  
   <script>
 function wake(sw) {
   var pic;
@@ -18,13 +21,14 @@ function wake(sw) {
     pic = "MEWO.png"
   }
   document.getElementById('mewo-sleep').src = pic;
-  .getElementById('MEWO').src = pic;
-  .addEventListener("click", meow);
+  document.getElementById('MEWO').src = pic;
+  element.addEventListener("click", speak);
 
-function meow() {
+function speak() {
   alert ("Meow? (Waiting for something to happen?)");
 }
 </script>
+  
   <p>
   <button type="button" onclick="wake(1)">
   <img id ="mewo-sleep" src="./images/mewo-sleep.webp" height=50px>
