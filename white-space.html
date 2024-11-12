@@ -11,7 +11,9 @@
   <br>
   <br>
   <br>
-  
+  <br>
+  <br>
+  <br>
   <script>
 function wake(sw) {
   var pic;
@@ -19,8 +21,6 @@ function wake(sw) {
     pic = "mewo-sleep.webp"
   } else {
     pic = "MEWO.png"
-    function speak() {
-  alert ("Meow? (Waiting for something to happen?)");
 }
   }
   document.getElementById('mewo-sleep').src = pic;
@@ -33,7 +33,9 @@ function speak() {
   
   <p>
   <button type="button" onclick="wake(1)">
+  <button type="button" onclick="speak()">
   <img id ="mewo-sleep" src="./images/mewo-sleep.webp" height=50px>
+  </button>
   </button>
   </p>
   
