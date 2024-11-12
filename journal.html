@@ -2,10 +2,35 @@
 <html>
 
 <head>
-  <title>Stars in Water</title>
+  <title>Journal :)</title>
   <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <h2>Enter Password</h2>
+<form id="joinky37">
+    <input type="password" id="validate" 
+           placeholder="Enter Password">
+    <button type="button" onclick="fun()">Submit</button>
+</form>
+  <div id="container">
+    <h2>Correct Password</h2>
+    <h3>Welcome to TutorialsPoint..</h3>
+</div>
+<script>
+    function fun() {
+        let inputPswd = document.getElementById("validate")
+                                .value;
+        let correctPswd = "TutorialsPoint";
+        if (inputPswd === correctPswd) {
+            document.getElementById("container")
+                .style.display = "block";
+            document.getElementById("pswd")
+                .style.display = "none";
+        } else {
+            alert("Incorrect password!");
+        }
+    }
+</script>
   <div>
   <h1>Hi, Jazz!</h1>
   <h3>Nice to see you again.</h3>
