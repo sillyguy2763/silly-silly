@@ -19,11 +19,12 @@ function wake(sw) {
     pic = "mewo-sleep.webp"
   } else {
     pic = "MEWO.png"
-    click
+    function speak() {
+  alert ("Meow? (Waiting for something to happen?)");
+}
   }
   document.getElementById('mewo-sleep').src = pic;
   document.getElementById('MEWO').src = pic;
-  element.addEventListener("click", speak);
 
 function speak() {
   alert ("Meow? (Waiting for something to happen?)");
