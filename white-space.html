@@ -19,6 +19,7 @@ function wake(sw) {
     pic = "mewo-sleep.webp"
   } else {
     pic = "MEWO.png"
+    click
   }
   document.getElementById('mewo-sleep').src = pic;
   document.getElementById('MEWO').src = pic;
@@ -39,5 +40,4 @@ function speak() {
    <source src="placeholder.mp3" type="audio/mpeg">
     (sorry, audio is not supported.)
   </audio>
-    <img id ="MEWO" src="./images/MEWO.png" height=50px hidden>
 </body>
