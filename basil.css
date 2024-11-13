@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Omori1';
+  src: url('OMORI_GAME2.ttf');
+}
+
+body {
+  font-family: "Omori1";
+  background-image: url('./images/basil's_garden.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
