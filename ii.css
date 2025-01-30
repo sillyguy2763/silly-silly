@@ -1,0 +1,23 @@
+  body {
+    font-family: "Comic Sans MS";
+    text-align: center;
+  }
+
+h1 {
+    color: black;
+    size: 200px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+
+h3 {
+    color: black;
+    size: 75px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+  }
+  
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
